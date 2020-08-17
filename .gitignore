@@ -1,0 +1,5 @@
+# JetBrains IDEs settings folder
+.idea/
+
+# JavaScript third party dependencies
+node_modules/
