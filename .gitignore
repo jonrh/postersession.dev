@@ -1,5 +1,11 @@
-# JetBrains IDEs settings folder
+# JetBrains IDE settings folder, WebStorm for example.
 .idea/
 
-# JavaScript third party dependencies
-node_modules/
+# macOS Finder settings files
+.DS_Store
+
+# Third party npm JavaScript dependencies
+/node_modules
+
+# Next.js temp files like cache
+.next/

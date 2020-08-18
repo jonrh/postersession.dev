@@ -1,0 +1,10 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+/* Zoom on hover effect */
+.grow { transition: all .15s ease 0s; }
+.grow:hover { transform: scale(1.05); }

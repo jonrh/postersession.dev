@@ -1,0 +1,22 @@
+/* SpinKit plane spinner. Source: https://github.com/tobiasahlin/SpinKit */
+.skPlane {
+    width: 40px;
+    height: 40px;
+    background-color: #f15c35;
+    animation: skPlane 1.2s infinite ease-in-out;
+}
+
+/* SpinKit plane spinner animation */
+@keyframes skPlane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
