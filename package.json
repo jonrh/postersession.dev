@@ -1,7 +1,8 @@
 {
-  "name": "imcc6posters",
+  "name": "postersessions",
   "version": "1.0.0",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
