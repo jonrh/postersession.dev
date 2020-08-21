@@ -118,7 +118,7 @@ const Home = props => {
             <li>💎 List of conference sponsors</li>
             <li>💶 Price: 200 EUR per event</li>
             <li></li>
-            <li>💌 <a href="mailto:hi@tersession.dev" className="underline">hi@postersession.dev</a></li>
+            <li>💌 <a href="mailto:hi@postersession.dev" className="underline">hi@postersession.dev</a></li>
           </ul>
         </p>
       </div>
