@@ -1,6 +1,6 @@
 import React from "react";
 
-const sponsorImg = "images/sponsors/sponsor_logo_1000x500.png";
+const sponsorImg = "/images/sponsors/sponsor_logo_1000x500.png";
 
 const H3 = ({ children }) => <h3 className="text-xl text-center mt-10">{children}</h3>
 

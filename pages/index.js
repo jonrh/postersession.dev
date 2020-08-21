@@ -35,8 +35,8 @@ const Poster = ({ poster }) => {
 
 /** An image that links to the PDF of a poster. Placeholder img & PDF if poster PDF is missing. */
 const PosterThumbnail = ({ poster }) => {
-  const pdfHref = poster.missing_pdf ? `posters/0.pdf` : `posters/${poster.id}.pdf`;
-  const imgHref = poster.missing_pdf ? `posters/0.png` : `posters/${poster.id}.png`;
+  const pdfHref = poster.missing_pdf ? `/posters/0.pdf` : `/posters/${poster.id}.pdf`;
+  const imgHref = poster.missing_pdf ? `/posters/0.png` : `/posters/${poster.id}.png`;
 
   return (
     <a href={pdfHref} className="text-center text-psOrange hover:text-psBlack">
@@ -55,7 +55,7 @@ const PosterAudioLink = ({ poster }) => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href={`audio/${poster.audio_file}`}
+        href={`/audio/${poster.audio_file}`}
         className="text-psOrange hover:text-psBlack"
       >
         🔊 Listen to audio
@@ -66,7 +66,7 @@ const PosterAudioLink = ({ poster }) => {
 
 /** Text link to poster PDF and audio introduction file if present */
 const PosterLinks = ({ poster }) => {
-  const pdfHref = poster.missing_pdf ? `posters/0.pdf` : `posters/${poster.id}.pdf`;
+  const pdfHref = poster.missing_pdf ? `/posters/0.pdf` : `/posters/${poster.id}.pdf`;
 
   return (
     <p className="mt-3">
