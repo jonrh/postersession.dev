@@ -110,15 +110,14 @@ const Home = props => {
       <div className="w-10/12 md:w-8/12 lg:w-6/12 m-20 mt-10 mx-auto">
         <p className="text-center mb-10">
           <ul>
-            <li>👩‍💻 Simple poster session websites for conferences</li>
-            <li>🔗 Easy links to poster PDFs and optional audio</li>
-            <li>🗄 Filter posters by themes or categories</li>
-            <li>⚡️ Responsive, lightweight & secure</li>
-            <li>🔒 Optional password protection</li>
-            <li>💎 List of conference sponsors</li>
-            <li>💶 Price: 200 EUR per event</li>
-            <li></li>
-            <li>💌 <a href="mailto:hi@postersession.dev" className="underline">hi@postersession.dev</a></li>
+            <li className="my-2">👩‍💻 Simple websites for conferences</li>
+            <li className="my-2">🔗 Links to PDFs & optional audio</li>
+            <li className="my-2">🗄 Filter by themes or categories</li>
+            <li className="my-2">🔒 Optional password protection</li>
+            <li className="my-2">💎 List of conference sponsors</li>
+            <li className="my-2">⚡️ Responsive, fast & secure</li>
+            <li className="my-2">💶 Price: 200 EUR per event</li>
+            <li className="my-2">💌 <a href="mailto:hi@postersession.dev" className="underline">hi@postersession.dev</a></li>
           </ul>
         </p>
       </div>
